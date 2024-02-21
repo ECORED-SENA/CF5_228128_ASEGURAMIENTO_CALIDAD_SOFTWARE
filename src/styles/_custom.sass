@@ -2,14 +2,18 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 5%
+    right: 25%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 70%
+    right: 65%
+  &-3
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 40%
+    right: 10%
 
 @keyframes float1
   0%
@@ -17,3 +21,167 @@
 
   100%
     transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img1.svg") !important
+
+.banner-interno__titulo__icono i
+  color: $color-secundario !important
+
+.tarjeta.tarjeta--azul
+  background-image: url("../assets/curso/tema1/img1.svg")
+  background-size: cover
+  background-color: transparent
+  background-repeat: no-repeat
+
+.tarjeta.tarjeta--azul1
+  background-color: #DCECFE
+
+.tarjeta.tarjeta--azul2
+  background-color: #F6F6F6
+
+.acordion__accion__btn--a
+  background-color: #FFCE00
+
+.slyder-a__bullets__item
+  margin: 0 3px
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #FFCE00
+
+.cajon-b
+  position: relative
+.cajon-b:before
+  background-color: #1682FB
+  content: ""
+  display: block
+  position: absolute
+  opacity: .25
+  top: 70%
+  left: 20%
+  right: 0%
+  bottom: 0%
+
+.cajon-b1
+  position: relative
+.cajon-b1:before
+  background-color: #3EE2A8
+  content: ""
+  display: block
+  position: absolute
+  opacity: .25
+  top: 0%
+  left: 0%
+  right: 50%
+  bottom: 40%
+
+.cajon-b2
+  position: relative
+.cajon-b2:before
+  background-color: #3EE2A8
+  content: ""
+  display: block
+  position: absolute
+  opacity: .25
+  top: 50%
+  left: 50%
+  right: 0%
+  bottom: 0%
+
+.bloque-texto-d.color-secundario:before
+  background-color: #D0E6FE
+
+.tarjeta.color-acento-contenido
+  background-color: #D4F3F2
+
+.tabs-a__tab
+  background-color: #E8E8E8
+.tabs-a.color-acento-botones .tabs-a__tab__selected
+  color: $color-sistema-texto !important
+
+.tarjeta.color-primario
+  background-color: #273A89
+  p
+    color: white
+  transition: all 0.5s ease-out
+.tarjeta.color-primario:hover
+  background-color: #ADD3FD
+  p
+    color: #273A89
+
+.acordion__accion__btn--b
+  border: 1px solid #FFCE00
+
+.acordion__accion__btn--a i, .acordion__accion__btn--b i
+  color: #FFCE00
+
+.tarjeta--container > .tarjeta:first-child
+  @media screen and ( max-width: $bp-max-lg )
+    border-top-right-radius: 20px
+    border-bottom-left-radius: 0px
+.tarjeta--container > .tarjeta:last-child
+  @media screen and ( max-width: $bp-max-lg )
+    border-top-right-radius: 0px
+    border-bottom-left-radius: 20px
+
+.tarjeta.color-secundario
+  background-color: #ADD3FD
+  p
+    color: $color-sistema-texto
+
+.tarjeta.color-acento-botones
+  background-color: #DCECFE
+  p
+    color: $color-sistema-texto
+
+.bg
+  &-c1
+    background-color: #1682FB
+    border-radius: 15px
+  &-c2
+    background-image: url("../assets/curso/tema1/img4.png")
+    background-size: cover
+    background-repeat: no-repeat
+  &-c3
+    background-color: #BAE9D9
+  &-c4
+    background-color: #DCECFE
+    border-radius: 15px
+  &-c5
+    background-image: url(../assets/curso/tema1/img17.png)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+  &-c6
+    background-image: url(../assets/curso/tema1/img18.png)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+  &-c7
+    background-image: url(../assets/curso/tema2/img3.svg)
+    background-repeat: no-repeat
+    background-position: 95% 10%
+    background-color: #ADD3FD
+  &-c8
+    background-image: url(../assets/curso/tema2/img8.svg)
+    background-repeat: no-repeat
+    background-position: 95% 10%
+    background-color: #E1F6EF
+  &-c9
+    background-image: url(../assets/curso/tema2/img6.png)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+
+.txt
+  &-c1
+    color: #FFCE00
+  &-c2
+    color: #00104E
+  &-c3
+    padding: 8px
+    background-color: #1682FB
