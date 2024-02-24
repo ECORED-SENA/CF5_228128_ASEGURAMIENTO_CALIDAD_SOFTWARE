@@ -12,7 +12,7 @@
         .bloque-texto-d.color-secundario.p-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            p ...una manera de hacer que los componentes de #[i software] sean reutilizables a través de interfaces de servicio. Estas interfaces utilizan estándares de comunicación comunes entre sí, de tal manera que pueden incorporarse rápidamente a nuevas aplicaciones sin tener que realizar una integración profunda cada vez... 
+            p ...una manera de hacer que los componentes de #[em software] sean reutilizables a través de interfaces de servicio. Estas interfaces utilizan estándares de comunicación comunes entre sí, de tal manera que pueden incorporarse rápidamente a nuevas aplicaciones sin tener que realizar una integración profunda cada vez... 
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .h5.mb-0 (SOA, 2021)

@@ -18,7 +18,7 @@
         .bloque-texto-d.color-secundario.p-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            p Los modelos y tecnologías de desarrollo #[i web] han evolucionado mucho en la última década, #[b existen multitud de aplicaciones, frameworks, librerías, arquitecturas y sistemas de publicación] en diferentes versiones que a su vez reciben cambios o mejoran con el tiempo.  El progreso también ha tenido lugar en lo relacionado con la administración de sistemas, servicios de alojamiento, técnicas de escalabilidad, monitorización y gestión de centros de procesos de datos. Esta evolución ha dado lugar a la #[b convergencia de una gran cantidad de tecnologías], herramientas y estilos arquitectónicos para desarrollar sitios #[i web] y aplicaciones.
+            p Los modelos y tecnologías de desarrollo #[em web] han evolucionado mucho en la última década, #[b existen multitud de aplicaciones, frameworks, librerías, arquitecturas y sistemas de publicación] en diferentes versiones que a su vez reciben cambios o mejoran con el tiempo.  El progreso también ha tenido lugar en lo relacionado con la administración de sistemas, servicios de alojamiento, técnicas de escalabilidad, monitorización y gestión de centros de procesos de datos. Esta evolución ha dado lugar a la #[b convergencia de una gran cantidad de tecnologías], herramientas y estilos arquitectónicos para desarrollar sitios #[em web] y aplicaciones.
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .h5.mb-0 (I, 2018)
@@ -94,7 +94,7 @@
             .bloque-texto-d.color-secundario.p-4
               .bloque-texto-d__texto.mb-2
                 i.fas.fa-quote-left
-                p JavaScript es el lenguaje de programación encargado de dotar de mayor interactividad y dinamismo a las páginas #[i web]. Cuando JavaScript se ejecuta en el navegador, no necesita de un compilador. El navegador lee directamente el código, sin necesidad de terceros. Por tanto, se le reconoce como uno de los tres lenguajes nativos de la #[i web] junto a HTML (contenido y su estructura) y a CSS (diseño del contenido y su estructura) ...
+                p JavaScript es el lenguaje de programación encargado de dotar de mayor interactividad y dinamismo a las páginas #[em web]. Cuando JavaScript se ejecuta en el navegador, no necesita de un compilador. El navegador lee directamente el código, sin necesidad de terceros. Por tanto, se le reconoce como uno de los tres lenguajes nativos de la #[em web] junto a HTML (contenido y su estructura) y a CSS (diseño del contenido y su estructura) ...
                 i.fas.fa-quote-right
               .bloque-texto-d__autor 
                 .h5.mb-0 (Ramos, 2020).
