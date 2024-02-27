@@ -39,12 +39,19 @@
                   .p-4
                     p.mb-0 Las tecnologías de front-end son usadas para el "lado del cliente", sea de un sitio #[i web] o aplicación. Se utilizan para desarrollar los componentes interactivos y producir los elementos que los usuarios ven e interactúan con ellos. Esto incluye colores y estilos de texto, imágenes, botones y menús de navegación, entre otros objetos interactivos. Normalmente estas tecnologías y lenguajes vienen implementados en los diferentes navegadores.
         Separador
-        .titulo-segundo.color-acento-contenido
-          h3 2.1.1 HTML5
+        .row.mb-5
+          .col-auto.bg-c12(data-aos="fade-down")
+            .px-3.pb-0
+              .row.align-items-end
+                .col-auto.pe-0
+                  figure.fig-p1
+                    img(src='@/assets/curso/tema1/img15.svg', style="width:50px" alt='').m-auto
+                .col
+                  h3.mb-2 HTML5
         .row.mb-5
           .col-lg-8.order-2.order-lg-1(data-aos="fade-right")
-            p HTML es la sigla de Hyper Text Markup Language. Es una de las tecnologías fundamentales necesarias para el desarrollo de todo tipo de aplicaciones #[i web]. Proporciona la estructura base para una página #[i web]. El código HTML garantiza que todo el contenido de un sitio #[i web] tenga el formato adecuado y estructurado. Esto es para que cada navegador de internet pueda mostrar el contenido según lo previsto. Sin HTML, un navegador no podría mostrar texto o cargar imágenes y otros elementos.
-            p.mb-0 HTML5, la versión más actual de HTML, Contiene un conjunto más amplio de tecnologías que permite a los sitios #[i web] y a las aplicaciones ser más diversas y de gran alcance. A este conjunto se le llama HTML5. En ese sentido, esta tecnología presenta una gran cantidad de recursos, como librerías, plugins y API que se puedan usar con un lenguaje de programación como lo es JavaScript para realizar un sitio #[i web] más interactivo y dinámico. Las tecnologías más usadas por HTML5 son las siguientes:
+            p HTML es la sigla de #[i Hyper Text Markup Language]. Es una de las tecnologías fundamentales necesarias para el desarrollo de todo tipo de aplicaciones #[i web]. Proporciona la estructura base para una página #[i web]. El código HTML garantiza que todo el contenido de un sitio #[i web] tenga el formato adecuado y estructurado. Esto es para que cada navegador de internet pueda mostrar el contenido según lo previsto. Sin HTML, un navegador no podría mostrar texto o cargar imágenes y otros elementos.
+            p.mb-0 HTML5, la versión más actual de HTML, Contiene un conjunto más amplio de tecnologías que permite a los sitios #[i web] y a las aplicaciones ser más diversas y de gran alcance. A este conjunto se le llama HTML5. En ese sentido, esta tecnología presenta una gran cantidad de recursos, como librerías, #[i plugins] y API que se puedan usar con un lenguaje de programación como lo es JavaScript para realizar un sitio #[i web] más interactivo y dinámico. Las tecnologías más usadas por HTML5 son las siguientes:
           .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
             figure
               img(src='@/assets/curso/tema2/img2.png', style="width:450px" alt='').m-auto
@@ -58,8 +65,15 @@
           .tarjeta.color-acento-contenido.p-4(titulo="WebSockets")
             p.mb-0 permite una conexión bidireccional persistente entre el usuario y el servidor. Los casos de uso más comunes incluyen chats y notificaciones en aplicaciones #[i web].
     Separador
-    .titulo-segundo.color-acento-contenido
-      h3 2.1.2 CSS3
+    .row.mb-5
+      .col-auto.bg-c12(data-aos="fade-down")
+        .px-3.pb-0
+          .row.align-items-end
+            .col-auto.pe-0
+              figure.fig-p1
+                img(src='@/assets/curso/tema1/img15.svg', style="width:50px" alt='').m-auto
+            .col
+              h3.mb-2 CSS3
     p.mb-3(data-aos="fade-right") Hojas de Estilo en Cascada (del inglés Cascading Style Sheets) o CSS es el lenguaje de estilos utilizado para describir la presentación de documentos HTML o XML (en-US) CSS, describe como debe ser renderizado  el elemento estructurado, es decir, se encarga de la apariencia del sitio. De manera adicional, abordamos la definición descomponiendo sus siglas:
     .row.align-items-center.mb-4
       .col-lg-8.order-2.order-lg-1(data-aos="fade-right")
@@ -70,15 +84,15 @@
                 li.d-flex
                   i.fas.fa-atom(style="color:#3EE2A8")
                   | 
-                  p.mb-0 Cascading: significa que los estilos que aplicamos a los elementos de una página #[i web] se propagan a los elementos que contiene, se aplican en cascada.
+                  p.mb-0 #[b #[i Cascading]]: significa que los estilos que aplicamos a los elementos de una página #[i web] se propagan a los elementos que contiene, se aplican en cascada.
                 li.d-flex
                   i.fas.fa-atom(style="color:#3EE2A8")
                   | 
-                  p.mb-0 Style: mediante la tecnología CSS se aplican estilos visuales a los distintos elementos de nuestra página #[i web].
+                  p.mb-0 #[b #[i Style]]: mediante la tecnología CSS se aplican estilos visuales a los distintos elementos de nuestra página #[i web].
                 li.d-flex
                   i.fas.fa-atom(style="color:#3EE2A8")
                   | 
-                  p.mb-0 Sheets: lo que traduce hojas, porque los estilos de una página #[i web] se añaden en archivos aparte. Estos archivos deben tener la extensión CSS de manera general.
+                  p.mb-0 #[b #[i Sheets]]: lo que traduce hojas, porque los estilos de una página #[i web] se añaden en archivos aparte. Estos archivos deben tener la extensión CSS de manera general.
       .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img3.png', style="width:450px" alt='').m-auto
@@ -86,8 +100,15 @@
     .row.bg-c5
       .col-12.px-5
         Separador
-        .titulo-segundo.color-acento-contenido
-          h3 2.1.3 JavaScript (JS)
+        .row.mb-5
+          .col-auto.bg-c12(data-aos="fade-down")
+            .px-3.pb-0
+              .row.align-items-end
+                .col-auto.pe-0
+                  figure.fig-p1
+                    img(src='@/assets/curso/tema1/img15.svg', style="width:50px" alt='').m-auto
+                .col
+                  h3.mb-2 JavaScript (JS)
         p.mb-5(data-aos="fade-right") En la literatura hay un sin número de definiciones con respecto a este lenguaje de programación, no obstante, hay una especial la cual se cita de parte del blog de Rafa Ramos de manera literal, él dice:
         .row.justify-content-center.mb-4
           .col-lg-10(data-aos="fade-left")
@@ -111,8 +132,15 @@
                   p De manera adicional, JS si bien es más conocido como un lenguaje de scripting (secuencias de comandos) para páginas #[i web], es usado también en muchos entornos fuera del navegador, tal como Node.js, Apache CouchDB y Adobe Acrobat. 
                   p.mb-0 Como conclusión a estas 3 principales tecnologías, se realiza una analogía con el cuerpo humano, de esta manera los huesos que son la estructura ósea es lo que a su vez hace el lenguaje de etiquetas HTML, los músculos que hacen que el cuerpo se mueva y tenga motricidad y dinámica es lo que a su vez hace JavaScript, y la piel que es la cubierta del cuerpo humano y se puede decir que es la que da apariencia, es lo que hace a su vez el CSS. Con esta analogía se espera que se tenga más comprensión de este tipo de tecnologías del lado del cliente.
         Separador
-        .titulo-segundo.color-acento-contenido
-          h3 2.1.4 Frameworks del front-end
+        .row.mb-5
+          .col-auto.bg-c12(data-aos="fade-down")
+            .px-3.pb-0
+              .row.align-items-end
+                .col-auto.pe-0
+                  figure.fig-p1
+                    img(src='@/assets/curso/tema1/img15.svg', style="width:50px" alt='').m-auto
+                .col
+                  h3.mb-2 Frameworks del front-end
         p(data-aos="fade-right") Un framework es un tipo de herramienta o recurso, que hace que el desarrollo de cualquier aplicativo sea del lado del cliente o servidor, sea más rápido, fácil y robusto. Este tipo de herramientas incorporan un conjunto de librerías, materiales y adoptan una estructura que van a permitir que todas las aplicaciones tengan un mejor rendimiento.
         p.mb-5(data-aos="fade-right") En ese sentido, se listan los frameworks más importantes a la fecha, con el fin que se tenga un reconocimiento para usos futuros. Este listado es apoyado según la comunidad más grande de gestión de productos llamada Product Coalition (P, 2021):
         .row.justify-content-center
@@ -159,15 +187,22 @@
     .row.bg-c5
       .col-12.px-5
         Separador
-        .titulo-segundo.color-acento-contenido
-          h3 2.2.1 Lenguajes del servidor
+        .row.mb-5
+          .col-auto.bg-c12(data-aos="fade-down")
+            .px-3.pb-0
+              .row.align-items-end
+                .col-auto.pe-0
+                  figure.fig-p1
+                    img(src='@/assets/curso/tema1/img15.svg', style="width:50px" alt='').m-auto
+                .col
+                  h3.mb-2 Lenguajes del servidor
         .row.mb-5
           .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
             figure
               img(src='@/assets/curso/tema2/img5.png', style="width:450px" alt='').m-auto
           .col-lg-8(data-aos="fade-left")
             p.mb-0 En el lado del servidor, el back-end potencia el funcionamiento del sitio #[i web] debido a que es en esta instancia donde se realizan los procesos más robustos de información, por lo que se necesitan de igual manera lenguajes de programación con una diversidad de funciones para el tratamiento de esos datos. Además, los programas escritos aquí por los desarrolladores de back-end se utilizan para comunicar la información de la base de datos al navegador. La empresa de base tecnológica Third Rock Techkno indica que: “En 2021, el desarrollo de BackEnd será aún más vital a medida que las empresas busquen expandirse a un ritmo rápido. Además, esta empresa muestra los lenguajes de programación del servidor que están en tendencia”. (Third Rock Techkno, 2021)
-        AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul2")(data-aos="fade-down")
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")(data-aos="fade-left")
           .row(titulo="Node.JS")
             .col-12
               p.mb-0 Este lenguaje tiene su propio entorno de ejecución. Esta es la razón por la que es popular entre la comunidad de desarrolladores. Además, como Node.js en la literatura de esta disciplina del desarrollo #[i software] es comúnmente visto como uno de los lenguajes más eficientes, se prefiere desarrollar aplicaciones de alta gama para el desarrollo de sitios #[i web], así como para la transmisión de video.
@@ -181,8 +216,15 @@
             .col-12
               p.mb-0 Es un lenguaje de programación de BackEnd conveniente que es muy flexible y tiene características impecables. Es uno de los programas donde su comunidad se ha venido actualizando y hay gran mayoría de frameworks basados en este lenguaje. Es por eso por lo que PHP se considera el futuro del desarrollo BackEnd en 2021. Además, la sintaxis de PHP es muy expresiva, lo que brinda libertad creativa a los desarrolladores.
     Separador
-    .titulo-segundo.color-acento-contenido
-      h3 2.2.2 Frameworks del back-end
+    .row.mb-5
+      .col-auto.bg-c12(data-aos="fade-down")
+        .px-3.pb-0
+          .row.align-items-end
+            .col-auto.pe-0
+              figure.fig-p1
+                img(src='@/assets/curso/tema1/img15.svg', style="width:50px" alt='').m-auto
+            .col
+              h3.mb-2 Frameworks del back-end
     p.mb-5(data-aos="fade-right") Como se mencionó en el apartado de frameworks del lado del front-end, este tipo de recurso ayuda a los desarrolladores a realizar sus trabajos de manera más ágil, segura y robusta. En ese sentido se presentan los frameworks del lado del back-end que son tendencia. Según indica una de las empresas de desarrollo #[i web] más importantes de Canadá Monocubed. (Mistry, 2021)
     .tarjeta--container.row
       .col-lg.tarjeta.color-secundario.p-5(data-aos="fade-right")

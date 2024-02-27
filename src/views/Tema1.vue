@@ -19,14 +19,21 @@
         .titulo-segundo.color-acento-contenido
           h2 1.1 Funcionamiento de la internet
         .row
-          .col-12.mb-4
+          .col-lg-3.mb-4.mb-lg-0
             figure(data-aos="fade-right")
-              img(src='@/assets/curso/tema1/img2.png', style="width:750px" alt='').m-auto
-          .col-12
+              img(src='@/assets/curso/tema1/img14.svg', style="width:250px" alt='').m-auto
+          .col-lg-9
             p.mb-0(data-aos="fade-down") La aparición de la internet tuvo lugar cuando se dio la necesidad de comunicación y de interacción con distintas personas en cualquier lugar del mundo. De esta manera se ha considerado esta tecnología como una columna vertebral de la #[i web], y se concibe como la infraestructura técnica que la hace posible. Desde lo más básico, se presenta como una gran red de computadoras que se comunican simultáneamente.
         Separador
-        .titulo-segundo.color-acento-contenido
-          h3 1.1.1 Historia de la internet
+        .row.mb-5
+          .col-auto.bg-c12(data-aos="fade-down")
+            .px-3.pb-0
+              .row.align-items-end
+                .col-auto.pe-0
+                  figure.fig-p1
+                    img(src='@/assets/curso/tema1/img15.svg', style="width:50px" alt='').m-auto
+                .col
+                  h3.mb-2 Historia de la internet
         .row
           .col-lg-7.order-2.order-lg-1(data-aos="fade-right")
             p.mb-0 Su historia se remonta al comienzo de la década de 1960, como un proyecto de investigación llamado ARPANET, financiado por el ejército de los Estados Unidos y más adelante se convirtió en una infraestructura pública en la década de 1980, con el apoyo de muchas instituciones del sector público y privado. Las distintas tecnologías que soporta internet han evolucionado con el tiempo, especialmente para satisfacer la gran demanda existente por parte de la población, no obstante, la forma en que funciona no ha cambiado mucho. En este sentido la internet se muestra como una forma de conectividad entre todos los equipos de cómputo, y por su distribución y organización, propenderá a que se encuentre la mejor manera de mantenerse conectados.
@@ -34,8 +41,15 @@
             figure
               img(src='@/assets/curso/tema1/img3.png', style="width:450px" alt='').m-auto
         Separador
-        .titulo-segundo.color-acento-contenido
-          h3 1.1.2 #[i Hardware] de red
+        .row.mb-5
+          .col-auto.bg-c12(data-aos="fade-down")
+            .px-3.pb-0
+              .row.align-items-end
+                .col-auto.pe-0
+                  figure.fig-p1
+                    img(src='@/assets/curso/tema1/img15.svg', style="width:50px" alt='').m-auto
+                .col
+                  h3.mb-2 #[i Hardware] de red
         p(data-aos="fade-right") Cuando dos computadoras necesitan comunicarse, se pueden vincular a través de medios físicos, por lo regular el cable Ethernet o de forma inalámbrica con tecnologías como Wifi, Bluetooth, ZigBee, entre otras.
         .row
           .col-12.p-4.bg-c2
@@ -99,8 +113,15 @@
                     figure
                       img(src='@/assets/curso/tema1/img12.png', style="width:550px", alt='').m-auto
     Separador
-    .titulo-segundo.color-acento-contenido
-      h3 1.1.3 Modelo de referencia TCP/IP
+    .row.mb-5
+          .col-auto.bg-c12(data-aos="fade-down")
+            .px-3.pb-0
+              .row.align-items-end
+                .col-auto.pe-0
+                  figure.fig-p1
+                    img(src='@/assets/curso/tema1/img15.svg', style="width:50px" alt='').m-auto
+                .col
+                  h3.mb-2 Modelo de referencia TCP/IP
     p(data-aos="fade-down") Al igual que los humanos, es importante que todos los equipos de cómputo tengan un modo común de comunicarse entre ellos. Para la mayoría de los equipos actuales, este modo es TCP/IP. TCP/IP suele venir inmerso en los equipos y está automatizado en buena medida. No obstante, es necesario la comprensión del modelo TCP/IP, sobre todo en el caso de que vaya a configurar un equipo para conectarlo a otro sistema. (Fisher, 2021)
     .row.align-items-center.mb-4
       .col-lg-7.order-2.order-lg-1(data-aos="fade-right")
@@ -145,8 +166,45 @@
               img(src='@/assets/curso/tema1/img14.png', style="width:450px", alt='').m-auto
         p(data-aos="fade-right") #[b Cuatro capas del modelo TCP/IP]
         p.mb-5(data-aos="fade-right") En la literatura, se encuentran un sin número de definiciones alrededor de las capas de este modelo, entre las más importantes y haciendo un resumen para dar mayor claridad, se tienen:
-        figure.mb-5(data-aos="fade-down")
-          img(src='@/assets/curso/tema1/img3.svg', style="width:1250px", alt='').m-auto
+        .row.mb-5
+          .col-12.bg-c10
+            .p-2.p-lg-4
+              .row
+                .col-12.bg-c11
+                  .p-3.p-lg-4
+                    .row
+                      .col-lg-8
+                        .row.align-items-center.mb-3
+                          .col-md-auto.mb-4.mb-lg-0
+                            figure
+                              img(src='@/assets/curso/tema1/img9.svg', style="width:110px", alt='').m-auto
+                          .col
+                            p.text-white.mb-0 #[b Capa de enlace de datos]
+                            p.text-white.mb-0 La capa de enlace de datos (igualmente denominada como capa de enlace, capa de interfaz de red o capa física) es la encargada de manejar las partes físicas del envío y recepción de datos mediante el cable Ethernet, la tarjeta de interfaz de red, la red inalámbrica, el controlador del dispositivo en el equipo, entre otros.
+                        .row.align-items-center.mb-3
+                          .col-md-auto.mb-4.mb-lg-0
+                            figure
+                              img(src='@/assets/curso/tema1/img10.svg', style="width:110px", alt='').m-auto
+                          .col
+                            p.text-white.mb-0 #[b Capa de Internet]
+                            p.text-white.mb-0 La capa de Internet (también denominada capa de red), es la capa encargada de controlar el movimiento (envío y recepción) de los paquetes alrededor de la red.
+                        .row.align-items-center.mb-3
+                          .col-md-auto.mb-4.mb-lg-0
+                            figure
+                              img(src='@/assets/curso/tema1/img11.svg', style="width:110px", alt='').m-auto
+                          .col
+                            p.text-white.mb-0 #[b Capa de transporte]
+                            p.text-white.mb-0 La capa de transporte es la capa encargada que proporciona una conexión de datos fiable entre dos dispositivos. Divide los datos en paquetes, hace acuse de recibo de los paquetes que recibe del otro dispositivo y además se asegura de que el otro dispositivo haga el acuse de recibo pertinente de los paquetes que recibe a su vez.
+                        .row.align-items-center
+                          .col-md-auto.mb-4.mb-lg-0
+                            figure
+                              img(src='@/assets/curso/tema1/img12.svg', style="width:110px", alt='').m-auto
+                          .col
+                            p.text-white.mb-0 #[b Capa de aplicaciones]
+                            p.text-white.mb-0 La capa de aplicaciones es el grupo de aplicaciones que requiere comunicación de red. Es con lo que el usuario o cliente suele interactuar, como el correo electrónico y la mensajería. Como la capa inferior es la encargada de gestionar los detalles de la comunicación, las aplicaciones no tienen que preocuparse por ello.
+                      .col-lg-4.d-none.d-lg-block
+                        figure
+                          img(src='@/assets/curso/tema1/img13.svg', style="width:280px", alt='').m-auto
         p.mb-5(data-aos="fade-right") En la siguiente gráfica, se muestran las capas y sus respectivos protocolos.
         .row.justify-content-center
           .col-lg-10.mb-4(data-aos="fade-left")
@@ -155,11 +213,16 @@
             figure
               img(src='@/assets/curso/tema1/img4.svg', style="width:1050px", alt='Imagen que presenta las capas respectivos protocolos, en el modelo TCP/IP.').m-auto
               figcaption Nota. Tomado de Juncosa, 2020.
-          .col-auto
-            a.txt-c2(href="https://www.vhv.rs/dpng/d/606-6061147_suite-de-protocolos-tcpip-protocolos-del-modelo-tcp.png" target="_blank") https://www.vhv.rs/dpng/d/606-6061147_suite-de-protocolos-tcpip-protocolos-del-modelo-tcp.png
         Separador
-        .titulo-segundo.color-acento-contenido
-          h3 1.1.4 Dirección IP
+        .row.mb-5
+          .col-auto.bg-c12(data-aos="fade-down")
+            .px-3.pb-0
+              .row.align-items-end
+                .col-auto.pe-0
+                  figure.fig-p1
+                    img(src='@/assets/curso/tema1/img15.svg', style="width:50px" alt='').m-auto
+                .col
+                  h3.mb-2 Dirección IP
         .row.align-items-center
           .col-lg-8.order-2.order-lg-1(data-aos="fade-right")
             p.mb-0 Para enviar un mensaje a una computadora, se debe especificar a cuál. Es por ello por lo que toda computadora conectada a una red cuenta con una dirección única que la identifica de manera lógica y jerárquica, llamada “dirección IP” o Protocolo de internet (IP de sus siglas en inglés Internet Protocol). Esta dirección se compone por una serie de cuatro números separados por puntos, por ejemplo: 192.168.2.19. Para las computadoras es un identificador simple, pero los humanos van a tener dificultad a la hora de recordar y memorizar este tipo de dirección. De esta manera, con el propósito de convertir esta serie numérica en algo que podamos asociar con mayor facilidad a la dirección IP, se utiliza lo que hoy en día conocemos como nombre de dominio.
@@ -169,8 +232,15 @@
     .row.bg-c6
       .col-12.px-5
         Separador
-        .titulo-segundo.color-acento-contenido
-          h3 1.1.5 Sistema de Nombres de Dominio, DNS
+        .row.mb-5
+          .col-auto.bg-c12(data-aos="fade-down")
+            .px-3.pb-0
+              .row.align-items-end
+                .col-auto.pe-0
+                  figure.fig-p1
+                    img(src='@/assets/curso/tema1/img15.svg', style="width:50px" alt='').m-auto
+                .col
+                  h3.mb-2 Sistema de Nombres de Dominio, DNS
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
             figure
@@ -178,8 +248,15 @@
           .col-lg-8(data-aos="fade-left")
             p.mb-0 Son como una libreta de direcciones de sitios #[i web]. Cuando se escribe una dirección #[i web] en el navegador, el navegador busca los DNS antes de recuperar el sitio #[i web]. El navegador necesita averiguar en qué servidor vive el sitio #[i web] y así enviar los mensajes HTTP al lugar correcto (ver más abajo). Esto es como buscar la dirección de la tienda para que pueda llegar a ella. Por ejemplo, google.com es el nombre de dominio utilizado para sustituir la dirección IP 173.194.121.32. Así, usar un nombre de dominio es la manera más fácil para nosotros de identificar un ordenador a través de internet.
         Separador
-        .titulo-segundo.color-acento-contenido
-          h3 1.1.6 Protocolo HTTP
+        .row.mb-5
+          .col-auto.bg-c12(data-aos="fade-down")
+            .px-3.pb-0
+              .row.align-items-end
+                .col-auto.pe-0
+                  figure.fig-p1
+                    img(src='@/assets/curso/tema1/img15.svg', style="width:50px" alt='').m-auto
+                .col
+                  h3.mb-2 Protocolo HTTP
         .row.align-items-center
           .col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
             p.mb-0 El Protocolo de Transferencia de Hipertexto es un protocolo de aplicación que define un idioma para que los #[b clientes y servidores] se puedan comunicar. Esto es como el idioma que utilizas para ordenar sus compras. De esta forma, es el nombre de un protocolo el cual nos permite realizar una petición de datos y recursos, como pueden ser documentos HTML. Es la base de cualquier intercambio de datos en la #[i web], y un protocolo de estructura cliente-servidor, esto quiere decir que una petición de datos es iniciada por el elemento que recibirá los datos (el cliente), normalmente un navegador #[i web].

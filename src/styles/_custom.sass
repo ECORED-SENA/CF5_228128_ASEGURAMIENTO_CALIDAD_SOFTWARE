@@ -103,6 +103,8 @@
 
 .tabs-a__tab
   background-color: #E8E8E8
+.tabs-a__tab:hover
+  color: $color-sistema-texto !important
 .tabs-a.color-acento-botones .tabs-a__tab__selected
   color: $color-sistema-texto !important
 
@@ -120,7 +122,7 @@
   border: 1px solid #FFCE00
 
 .acordion__accion__btn--a i, .acordion__accion__btn--b i
-  color: #FFCE00
+  color: $color-sistema-texto
 
 .tarjeta--container > .tarjeta:first-child
   @media screen and ( max-width: $bp-max-lg )
@@ -176,6 +178,17 @@
     background-image: url(../assets/curso/tema2/img6.png)
     background-repeat: no-repeat
     margin-inline: -3.2rem !important
+  &-c10
+    background-image: url(../assets/curso/tema1/img3.svg)
+    background-size: cover
+    background-repeat: no-repeat
+    border-radius: 25px
+  &-c11
+    background-color: #273A89
+    border-radius: 25px
+  &-c12
+    background-color: #8DEECC
+    border-radius: 15px
 
 .txt
   &-c1
@@ -185,3 +198,8 @@
   &-c3
     padding: 8px
     background-color: #1682FB
+
+.fig
+  &-p1
+    position: relative;
+    bottom: 9px;
