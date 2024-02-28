@@ -47,7 +47,7 @@
                   figure.fig-p1
                     img(src='@/assets/curso/tema1/img15.svg', style="width:50px" alt='').m-auto
                 .col
-                  h3.mb-2 HTML5
+                  h3 HTML5
         .row.mb-5
           .col-lg-8.order-2.order-lg-1(data-aos="fade-right")
             p HTML es la sigla de #[i Hyper Text Markup Language]. Es una de las tecnologías fundamentales necesarias para el desarrollo de todo tipo de aplicaciones #[i web]. Proporciona la estructura base para una página #[i web]. El código HTML garantiza que todo el contenido de un sitio #[i web] tenga el formato adecuado y estructurado. Esto es para que cada navegador de internet pueda mostrar el contenido según lo previsto. Sin HTML, un navegador no podría mostrar texto o cargar imágenes y otros elementos.
@@ -73,7 +73,7 @@
               figure.fig-p1
                 img(src='@/assets/curso/tema1/img15.svg', style="width:50px" alt='').m-auto
             .col
-              h3.mb-2 CSS3
+              h3 CSS3
     p.mb-3(data-aos="fade-right") Hojas de Estilo en Cascada (del inglés Cascading Style Sheets) o CSS es el lenguaje de estilos utilizado para describir la presentación de documentos HTML o XML (en-US) CSS, describe como debe ser renderizado  el elemento estructurado, es decir, se encarga de la apariencia del sitio. De manera adicional, abordamos la definición descomponiendo sus siglas:
     .row.align-items-center.mb-4
       .col-lg-8.order-2.order-lg-1(data-aos="fade-right")
@@ -108,7 +108,7 @@
                   figure.fig-p1
                     img(src='@/assets/curso/tema1/img15.svg', style="width:50px" alt='').m-auto
                 .col
-                  h3.mb-2 JavaScript (JS)
+                  h3 JavaScript (JS)
         p.mb-5(data-aos="fade-right") En la literatura hay un sin número de definiciones con respecto a este lenguaje de programación, no obstante, hay una especial la cual se cita de parte del blog de Rafa Ramos de manera literal, él dice:
         .row.justify-content-center.mb-4
           .col-lg-10(data-aos="fade-left")
@@ -140,7 +140,7 @@
                   figure.fig-p1
                     img(src='@/assets/curso/tema1/img15.svg', style="width:50px" alt='').m-auto
                 .col
-                  h3.mb-2 Frameworks del front-end
+                  h3 Frameworks del front-end
         p(data-aos="fade-right") Un framework es un tipo de herramienta o recurso, que hace que el desarrollo de cualquier aplicativo sea del lado del cliente o servidor, sea más rápido, fácil y robusto. Este tipo de herramientas incorporan un conjunto de librerías, materiales y adoptan una estructura que van a permitir que todas las aplicaciones tengan un mejor rendimiento.
         p.mb-5(data-aos="fade-right") En ese sentido, se listan los frameworks más importantes a la fecha, con el fin que se tenga un reconocimiento para usos futuros. Este listado es apoyado según la comunidad más grande de gestión de productos llamada Product Coalition (P, 2021):
         .row.justify-content-center
@@ -195,7 +195,7 @@
                   figure.fig-p1
                     img(src='@/assets/curso/tema1/img15.svg', style="width:50px" alt='').m-auto
                 .col
-                  h3.mb-2 Lenguajes del servidor
+                  h3 Lenguajes del servidor
         .row.mb-5
           .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
             figure
@@ -224,7 +224,7 @@
               figure.fig-p1
                 img(src='@/assets/curso/tema1/img15.svg', style="width:50px" alt='').m-auto
             .col
-              h3.mb-2 Frameworks del back-end
+              h3 Frameworks del back-end
     p.mb-5(data-aos="fade-right") Como se mencionó en el apartado de frameworks del lado del front-end, este tipo de recurso ayuda a los desarrolladores a realizar sus trabajos de manera más ágil, segura y robusta. En ese sentido se presentan los frameworks del lado del back-end que son tendencia. Según indica una de las empresas de desarrollo #[i web] más importantes de Canadá Monocubed. (Mistry, 2021)
     .tarjeta--container.row
       .col-lg.tarjeta.color-secundario.p-5(data-aos="fade-right")

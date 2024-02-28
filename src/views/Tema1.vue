@@ -18,7 +18,7 @@
         #t_1_1
         .titulo-segundo.color-acento-contenido
           h2 1.1 Funcionamiento de la internet
-        .row
+        .row.align-items-center
           .col-lg-3.mb-4.mb-lg-0
             figure(data-aos="fade-right")
               img(src='@/assets/curso/tema1/img14.svg', style="width:250px" alt='').m-auto
@@ -33,7 +33,7 @@
                   figure.fig-p1
                     img(src='@/assets/curso/tema1/img15.svg', style="width:50px" alt='').m-auto
                 .col
-                  h3.mb-2 Historia de la internet
+                  h3 Historia de la internet
         .row
           .col-lg-7.order-2.order-lg-1(data-aos="fade-right")
             p.mb-0 Su historia se remonta al comienzo de la década de 1960, como un proyecto de investigación llamado ARPANET, financiado por el ejército de los Estados Unidos y más adelante se convirtió en una infraestructura pública en la década de 1980, con el apoyo de muchas instituciones del sector público y privado. Las distintas tecnologías que soporta internet han evolucionado con el tiempo, especialmente para satisfacer la gran demanda existente por parte de la población, no obstante, la forma en que funciona no ha cambiado mucho. En este sentido la internet se muestra como una forma de conectividad entre todos los equipos de cómputo, y por su distribución y organización, propenderá a que se encuentre la mejor manera de mantenerse conectados.
@@ -49,7 +49,7 @@
                   figure.fig-p1
                     img(src='@/assets/curso/tema1/img15.svg', style="width:50px" alt='').m-auto
                 .col
-                  h3.mb-2 #[i Hardware] de red
+                  h3 #[i Hardware] de red
         p(data-aos="fade-right") Cuando dos computadoras necesitan comunicarse, se pueden vincular a través de medios físicos, por lo regular el cable Ethernet o de forma inalámbrica con tecnologías como Wifi, Bluetooth, ZigBee, entre otras.
         .row
           .col-12.p-4.bg-c2
@@ -121,7 +121,7 @@
                   figure.fig-p1
                     img(src='@/assets/curso/tema1/img15.svg', style="width:50px" alt='').m-auto
                 .col
-                  h3.mb-2 Modelo de referencia TCP/IP
+                  h3 Modelo de referencia TCP/IP
     p(data-aos="fade-down") Al igual que los humanos, es importante que todos los equipos de cómputo tengan un modo común de comunicarse entre ellos. Para la mayoría de los equipos actuales, este modo es TCP/IP. TCP/IP suele venir inmerso en los equipos y está automatizado en buena medida. No obstante, es necesario la comprensión del modelo TCP/IP, sobre todo en el caso de que vaya a configurar un equipo para conectarlo a otro sistema. (Fisher, 2021)
     .row.align-items-center.mb-4
       .col-lg-7.order-2.order-lg-1(data-aos="fade-right")
@@ -222,7 +222,7 @@
                   figure.fig-p1
                     img(src='@/assets/curso/tema1/img15.svg', style="width:50px" alt='').m-auto
                 .col
-                  h3.mb-2 Dirección IP
+                  h3 Dirección IP
         .row.align-items-center
           .col-lg-8.order-2.order-lg-1(data-aos="fade-right")
             p.mb-0 Para enviar un mensaje a una computadora, se debe especificar a cuál. Es por ello por lo que toda computadora conectada a una red cuenta con una dirección única que la identifica de manera lógica y jerárquica, llamada “dirección IP” o Protocolo de internet (IP de sus siglas en inglés Internet Protocol). Esta dirección se compone por una serie de cuatro números separados por puntos, por ejemplo: 192.168.2.19. Para las computadoras es un identificador simple, pero los humanos van a tener dificultad a la hora de recordar y memorizar este tipo de dirección. De esta manera, con el propósito de convertir esta serie numérica en algo que podamos asociar con mayor facilidad a la dirección IP, se utiliza lo que hoy en día conocemos como nombre de dominio.
@@ -240,7 +240,7 @@
                   figure.fig-p1
                     img(src='@/assets/curso/tema1/img15.svg', style="width:50px" alt='').m-auto
                 .col
-                  h3.mb-2 Sistema de Nombres de Dominio, DNS
+                  h3 Sistema de Nombres de Dominio, DNS
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
             figure
@@ -256,7 +256,7 @@
                   figure.fig-p1
                     img(src='@/assets/curso/tema1/img15.svg', style="width:50px" alt='').m-auto
                 .col
-                  h3.mb-2 Protocolo HTTP
+                  h3 Protocolo HTTP
         .row.align-items-center
           .col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
             p.mb-0 El Protocolo de Transferencia de Hipertexto es un protocolo de aplicación que define un idioma para que los #[b clientes y servidores] se puedan comunicar. Esto es como el idioma que utilizas para ordenar sus compras. De esta forma, es el nombre de un protocolo el cual nos permite realizar una petición de datos y recursos, como pueden ser documentos HTML. Es la base de cualquier intercambio de datos en la #[i web], y un protocolo de estructura cliente-servidor, esto quiere decir que una petición de datos es iniciada por el elemento que recibirá los datos (el cliente), normalmente un navegador #[i web].
