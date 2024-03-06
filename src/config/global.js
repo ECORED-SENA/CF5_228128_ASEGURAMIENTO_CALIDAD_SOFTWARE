@@ -314,7 +314,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Andrés Felipe Herrera Roldan',
           cargo: 'Diseñador de Contenidos Digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
@@ -329,8 +329,8 @@ export default {
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
+          nombre: 'Edgar Mauricio Cortes Garcia',
+          cargo: 'Actividad didáctica',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
