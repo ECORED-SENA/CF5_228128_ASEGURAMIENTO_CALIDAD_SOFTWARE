@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Conceptos, tecnologías y arquitectura para el desarrollo web',
+      'Conceptos, tecnologías y arquitectura para el desarrollo <i>web</i>',
     descripcionCurso:
       'En este componente formativo se abordarán los conceptos relacionados con el funcionamiento de un sistema web soportado bajo la arquitectura de la internet. Seguidamente se revisarán las tecnologías más importantes para el desarrollo web, tanto del lado del cliente como del servidor y por último se abordan los conceptos básicos de una arquitectura orientada a servicios.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
@@ -168,27 +168,27 @@ export default {
     {
       termino: 'Arquitectura <i>software</i>',
       significado:
-        'es una metodología que se refiere a la estructuración de un sistema software que, idealmente, se crea en etapas tempranas de la construcción del sistema.',
+        'es una metodología que se refiere a la estructuración de un sistema <i>software</i> que, idealmente, se crea en etapas tempranas de la construcción del sistema.',
     },
     {
       termino: 'Página <i>web</i>',
       significado:
-        'es un documento que se puede mostrar en un navegador web como Firefox, Google Chrome, Microsoft internet Explorer o Edge, o Safary de Apple.',
+        'es un documento que se puede mostrar en un navegador <i>web</i> como Firefox, Google Chrome, Microsoft internet Explorer o Edge, o Safary de Apple.',
     },
     {
       termino: 'Servidor <i>web</i>',
       significado:
-        'una computadora de grandes especificaciones hardware que aloja un sitio web o plataformas con todos sus recursos en la internet.',
+        'una computadora de grandes especificaciones <i>hardware</i> que aloja un sitio web o plataformas con todos sus recursos en la internet.',
     },
     {
       termino: 'Sitio <i>web</i>',
       significado:
-        'es una colección o conjunto de páginas web que se agrupan y normalmente se conectan de varias maneras. Por lo regular se le conoce como "sitio web" o simplemente "sitio".',
+        'es una colección o conjunto de páginas <i>web</i> que se agrupan y normalmente se conectan de varias maneras. Por lo regular se le conoce como "sitio <i>web</i>" o simplemente "sitio".',
     },
     {
       termino: 'W3C',
       significado:
-        'por sus siglas World Wide Web Consortium. Es una comunidad internacional que genera recomendaciones y estándares que aseguran el crecimiento de la WWW a largo plazo.',
+        'por sus siglas <i>World Wide Web Consortium</i>. Es una comunidad internacional que genera recomendaciones y estándares que aseguran el crecimiento de la WWW a largo plazo.',
     },
     {
       termino: '<i>Web Push</i>',
@@ -215,7 +215,7 @@ export default {
     {
       referencia:
         'Juncosa, M. (2020, 6 agosto). El modelo TCP/IP capa a capa. aprendederedes.com. ',
-      link: '',
+      link: 'https://aprenderedes.com/2019/06/el-modelo-tcpip/',
     },
     {
       referencia:
@@ -351,6 +351,11 @@ export default {
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Jaime Hernán Tejada Llano',
+          cargo: 'Validador de recursos educativos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],

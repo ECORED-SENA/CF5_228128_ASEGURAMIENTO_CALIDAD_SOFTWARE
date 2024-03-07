@@ -18,7 +18,7 @@
         .bloque-texto-d.color-secundario.p-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            p Los modelos y tecnologías de desarrollo #[em web] han evolucionado mucho en la última década, #[b existen multitud de aplicaciones, frameworks, librerías, arquitecturas y sistemas de publicación] en diferentes versiones que a su vez reciben cambios o mejoran con el tiempo.  El progreso también ha tenido lugar en lo relacionado con la administración de sistemas, servicios de alojamiento, técnicas de escalabilidad, monitorización y gestión de centros de procesos de datos. Esta evolución ha dado lugar a la #[b convergencia de una gran cantidad de tecnologías], herramientas y estilos arquitectónicos para desarrollar sitios #[em web] y aplicaciones.
+            p Los modelos y tecnologías de desarrollo #[em web] han evolucionado mucho en la última década, #[b existen multitud de aplicaciones, #[em frameworks], librerías, arquitecturas y sistemas de publicación] en diferentes versiones que a su vez reciben cambios o mejoran con el tiempo.  El progreso también ha tenido lugar en lo relacionado con la administración de sistemas, servicios de alojamiento, técnicas de escalabilidad, monitorización y gestión de centros de procesos de datos. Esta evolución ha dado lugar a la #[b convergencia de una gran cantidad de tecnologías], herramientas y estilos arquitectónicos para desarrollar sitios #[em web] y aplicaciones.
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .h5.mb-0 (I, 2018)
@@ -27,7 +27,7 @@
       .col-12.px-5
         #t_2_1
         .titulo-segundo.color-acento-contenido
-          h2 2.1 Tecnologías del front-end
+          h2 2.1 Tecnologías del #[i front-end]
         .row.mx-0
           .col-12.bg-c3(data-aos="fade-left")
             .p-4
@@ -37,7 +37,7 @@
                     img(src='@/assets/curso/tema2/img1.svg', style="width:350px" alt='').m-auto
                 .col.bg-white
                   .p-4
-                    p.mb-0 Las tecnologías de front-end son usadas para el "lado del cliente", sea de un sitio #[i web] o aplicación. Se utilizan para desarrollar los componentes interactivos y producir los elementos que los usuarios ven e interactúan con ellos. Esto incluye colores y estilos de texto, imágenes, botones y menús de navegación, entre otros objetos interactivos. Normalmente estas tecnologías y lenguajes vienen implementados en los diferentes navegadores.
+                    p.mb-0 Las tecnologías de #[i front-end] son usadas para el "lado del cliente", sea de un sitio #[i web] o aplicación. Se utilizan para desarrollar los componentes interactivos y producir los elementos que los usuarios ven e interactúan con ellos. Esto incluye colores y estilos de texto, imágenes, botones y menús de navegación, entre otros objetos interactivos. Normalmente estas tecnologías y lenguajes vienen implementados en los diferentes navegadores.
         Separador
         .row.mb-5
           .col-auto.bg-c12(data-aos="fade-down")
@@ -140,9 +140,9 @@
                   figure.fig-p1
                     img(src='@/assets/curso/tema1/img15.svg', style="width:50px" alt='').m-auto
                 .col
-                  h3 Frameworks del front-end
+                  h3 #[i Frameworks] del #[i front-end]
         p(data-aos="fade-right") Un framework es un tipo de herramienta o recurso, que hace que el desarrollo de cualquier aplicativo sea del lado del cliente o servidor, sea más rápido, fácil y robusto. Este tipo de herramientas incorporan un conjunto de librerías, materiales y adoptan una estructura que van a permitir que todas las aplicaciones tengan un mejor rendimiento.
-        p.mb-5(data-aos="fade-right") En ese sentido, se listan los frameworks más importantes a la fecha, con el fin que se tenga un reconocimiento para usos futuros. Este listado es apoyado según la comunidad más grande de gestión de productos llamada Product Coalition (P, 2021):
+        p.mb-5(data-aos="fade-right") En ese sentido, se listan los #[i frameworks] más importantes a la fecha, con el fin que se tenga un reconocimiento para usos futuros. Este listado es apoyado según la comunidad más grande de gestión de productos llamada Product Coalition (P, 2021):
         .row.justify-content-center
           .col-md-6.col-lg.mb-5.mb-lg-0(data-aos="fade-right")
             .tarjeta-avatar
@@ -180,7 +180,7 @@
             .p-4
               .row.align-items-center
                 .col.mb-4.mb-lg-0
-                  p.mb-0 Este tipo de tecnologías son aquellas que se utilizan en el lado Servidor. En ese sentido el Servidor las utiliza para gestionar y/o procesar las diferentes peticiones de información que le llegan, además realiza gestión sobre las bases de datos alojadas en los mismos. La información una vez tratada se envía devuelta al dispositivo para que sea visualizada en el dispositivo a través de las tecnologías front-end. Las tecnologías más conocidas y usadas en el backEnd son PHP, Java, .NET, Python, MySQL, etc.
+                  p.mb-0 Este tipo de tecnologías son aquellas que se utilizan en el lado Servidor. En ese sentido el Servidor las utiliza para gestionar y/o procesar las diferentes peticiones de información que le llegan, además realiza gestión sobre las bases de datos alojadas en los mismos. La información una vez tratada se envía devuelta al dispositivo para que sea visualizada en el dispositivo a través de las tecnologías #[i front-end]. Las tecnologías más conocidas y usadas en el backEnd son PHP, Java, .NET, Python, MySQL, etc.
                 .col-lg-auto
                   figure
                     img(src='@/assets/curso/tema2/img7.svg', style="width:180px" alt='').m-auto
@@ -214,7 +214,7 @@
               p.mb-0 Se estima que este lenguaje actualmente jugará un papel fundamental, ya que ayuda a reducir el tiempo dedicado a tareas estandarizadas.
           .row(titulo="PHP")
             .col-12
-              p.mb-0 Es un lenguaje de programación de BackEnd conveniente que es muy flexible y tiene características impecables. Es uno de los programas donde su comunidad se ha venido actualizando y hay gran mayoría de frameworks basados en este lenguaje. Es por eso por lo que PHP se considera el futuro del desarrollo BackEnd en 2021. Además, la sintaxis de PHP es muy expresiva, lo que brinda libertad creativa a los desarrolladores.
+              p.mb-0 Es un lenguaje de programación de BackEnd conveniente que es muy flexible y tiene características impecables. Es uno de los programas donde su comunidad se ha venido actualizando y hay gran mayoría de #[i frameworks] basados en este lenguaje. Es por eso por lo que PHP se considera el futuro del desarrollo BackEnd en 2021. Además, la sintaxis de PHP es muy expresiva, lo que brinda libertad creativa a los desarrolladores.
     Separador
     .row.mb-5
       .col-auto.bg-c12(data-aos="fade-down")
@@ -224,8 +224,8 @@
               figure.fig-p1
                 img(src='@/assets/curso/tema1/img15.svg', style="width:50px" alt='').m-auto
             .col
-              h3 Frameworks del back-end
-    p.mb-5(data-aos="fade-right") Como se mencionó en el apartado de frameworks del lado del front-end, este tipo de recurso ayuda a los desarrolladores a realizar sus trabajos de manera más ágil, segura y robusta. En ese sentido se presentan los frameworks del lado del back-end que son tendencia. Según indica una de las empresas de desarrollo #[i web] más importantes de Canadá Monocubed. (Mistry, 2021)
+              h3 #[i Frameworks] del #[i back-end]
+    p.mb-5(data-aos="fade-right") Como se mencionó en el apartado de #[i frameworks] del lado del #[i front-end], este tipo de recurso ayuda a los desarrolladores a realizar sus trabajos de manera más ágil, segura y robusta. En ese sentido se presentan los #[I frameworks] del lado del back-end que son tendencia. Según indica una de las empresas de desarrollo #[i web] más importantes de Canadá Monocubed. (Mistry, 2021)
     .tarjeta--container.row
       .col-lg.tarjeta.color-secundario.p-5(data-aos="fade-right")
         .row.justify-content-center.mb-4
@@ -235,7 +235,7 @@
         .row
           .col-auto
             h2.text-center.txt-c3 Laravel
-        p Este framework tiene una excelente estructura del lenguaje, la capacidad de adaptarse a grupos gigantes y la efectividad de sus recursos como es la llamada toolbox. Basado en el lenguaje PHP, sigue una sintaxis elegante y expresiva. Laravel permite a los desarrolladores #[i web] ser flexibles y creativos mientras se encargan de los detalles de fondo a diferencia de otros frameworks.
+        p Este framework tiene una excelente estructura del lenguaje, la capacidad de adaptarse a grupos gigantes y la efectividad de sus recursos como es la llamada toolbox. Basado en el lenguaje PHP, sigue una sintaxis elegante y expresiva. Laravel permite a los desarrolladores #[i web] ser flexibles y creativos mientras se encargan de los detalles de fondo a diferencia de otros #[i frameworks].
       .col-lg.tarjeta.color-acento-botones.p-5(data-aos="fade-down")
         .row.justify-content-center.mb-4
           .col-6

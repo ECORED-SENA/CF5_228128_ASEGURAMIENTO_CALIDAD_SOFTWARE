@@ -50,7 +50,7 @@
                     img(src='@/assets/curso/tema1/img15.svg', style="width:50px" alt='').m-auto
                 .col
                   h3 #[i Hardware] de red
-        p(data-aos="fade-right") Cuando dos computadoras necesitan comunicarse, se pueden vincular a través de medios físicos, por lo regular el cable Ethernet o de forma inalámbrica con tecnologías como Wifi, Bluetooth, ZigBee, entre otras.
+        p(data-aos="fade-right") Cuando dos computadoras necesitan comunicarse, se pueden vincular a través de medios físicos, por lo regular el cable #[i Ethernet] o de forma inalámbrica con tecnologías como #[i Wifi], #[i Bluetooth], #[i ZigBee], entre otras.
         .row
           .col-12.p-4.bg-c2
             .tarjeta.tarjeta--azul.p-4.p-lg-5(data-aos="fade-left")
@@ -84,10 +84,10 @@
                     figure
                       img(src='@/assets/curso/tema1/img8.png', style="width:350px", alt='').m-auto
                 .row.align-items-center.justify-content-center
-                  .col-lg-6.order-2.order-lg-1
+                  .col-lg-9.order-2.order-lg-1
                     p.text-white El proceso de conexión entre los diversos terminales demuestra que puede ser un ejercicio muy complejo y engorroso, por lo tanto, con el fin de solucionar esta organización, cada ordenador en una red está conectado a una pequeña computadora especial llamada enrutador o router (en inglés).
                     p.text-white.mb-0 Este dispositivo cumple una función: tal como lo hace un señalizador en las estaciones del sistema integrado de transporte público, que  indican cuál ruta necesitas para llegar a un destino. De esta manera el router se encarga de asegurar que el mensaje enviado desde un computador o terminal emisor llegue al destino correcto. Una vez incorporado un enrutador al sistema, la red de diez terminales solo requiere diez cables: un conector para cada ordenador y un enrutador con 10 conectores, como se aprecia en la siguiente gráfica.
-                  .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2
+                  .col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2
                     figure
                       img(src='@/assets/curso/tema1/img9.png', style="width:350px", alt='').m-auto
                 .row.align-items-center.justify-content-center
@@ -106,10 +106,10 @@
                     figure
                       img(src='@/assets/curso/tema1/img11.png', style="width:550px", alt='').m-auto
                 .row.align-items-center.justify-content-center
-                  .col-lg-5.order-2.order-lg-1
+                  .col-lg-8.order-2.order-lg-1
                     p.text-white El diseño físico y lógico de la red llamado topología está basado en los enlaces de punto a punto comúnmente para redes alámbricas. El estándar IEEE 802.3, comúnmente conocido como Ethernet, es la manera más común de LAN alámbrica. La figura en su apartado b, muestra un ejemplo de topología de Ethernet conmutada. Cada computadora se comunica mediante el protocolo Ethernet y se conecta a una caja conocida como switch a través de un enlace de punto a punto.
                     p.text-white.mb-0 En ese sentido, un switch tiene varios puertos, cada uno de los cuales se puede conectar a una computadora. La función que cumple el switch es transmitir paquetes entre las computadoras conectadas a él, y utiliza la dirección en cada paquete para determinar a qué computadora se lo debe enviar.
-                  .col-lg-6.mb-4.mb-lg-0.order-1.order-lg-2
+                  .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2
                     figure
                       img(src='@/assets/curso/tema1/img12.png', style="width:550px", alt='').m-auto
     Separador
@@ -128,8 +128,8 @@
         .row.mb-3
           .col-12.bg-c3
             .p-4
-              p.mb-0 Así, este protocolo TCP/IP, cuyas siglas definen: Transmission Control Protocol/internet Protocol (Protocolo de control de transmisión/Protocolo de internet), se presenta como un conjunto de reglas estandarizadas que permiten a los equipos comunicarse en una red como internet. La potencialidad de las máquinas está en su velocidad de transmisión y comunicar con otras, de hecho, una de las tendencias de esta cuarta revolución industrial es la interacción de ellas de manera inteligente, sobre todo en contexto de producción. Muchas de las cosas para las que utilizamos los equipos (enviar mensajes de correo electrónico, ver Netflix u obtener indicaciones para llegar a un sitio) dependen de la comunicación entre ellos. Pueden ser equipos de distintos fabricantes e incluso encontrarse en zonas geográficas diferentes. De esta manera las personas y plataformas #[i software] que los utilizan pueden hablar distintos lenguajes humanos e informáticos.
-        p.mb-0 El blog de Avast Academy, señala: “...Una interacción determinada puede darse entre dos sistemas informáticos o involucrar cientos de sistemas. Sin embargo, como sucede al pasar una carta o un paquete de mano en mano, cada transacción se produce entre solo dos equipos cada vez. Para que esto suceda, los dos equipos deben saber, por adelantado, cómo se espera que se comuniquen.
+              p.mb-0 Así, este protocolo TCP/IP, cuyas siglas definen: #[i Transmission Control Protocol/internet Protocol] (Protocolo de control de transmisión/Protocolo de internet), se presenta como un conjunto de reglas estandarizadas que permiten a los equipos comunicarse en una red como internet. La potencialidad de las máquinas está en su velocidad de transmisión y comunicar con otras, de hecho, una de las tendencias de esta cuarta revolución industrial es la interacción de ellas de manera inteligente, sobre todo en contexto de producción. Muchas de las cosas para las que utilizamos los equipos (enviar mensajes de correo electrónico, ver Netflix u obtener indicaciones para llegar a un sitio) dependen de la comunicación entre ellos. Pueden ser equipos de distintos fabricantes e incluso encontrarse en zonas geográficas diferentes. De esta manera las personas y plataformas #[i software] que los utilizan pueden hablar distintos lenguajes humanos e informáticos.
+        p.mb-0 El #[i blog] de #[i Avast Academy], señala: “...Una interacción determinada puede darse entre dos sistemas informáticos o involucrar cientos de sistemas. Sin embargo, como sucede al pasar una carta o un paquete de mano en mano, cada transacción se produce entre solo dos equipos cada vez. Para que esto suceda, los dos equipos deben saber, por adelantado, cómo se espera que se comuniquen.
       .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img13.png', style="width:450px", alt='').m-auto
@@ -180,7 +180,7 @@
                               img(src='@/assets/curso/tema1/img9.svg', style="width:110px", alt='').m-auto
                           .col
                             p.text-white.mb-0 #[b Capa de enlace de datos]
-                            p.text-white.mb-0 La capa de enlace de datos (igualmente denominada como capa de enlace, capa de interfaz de red o capa física) es la encargada de manejar las partes físicas del envío y recepción de datos mediante el cable Ethernet, la tarjeta de interfaz de red, la red inalámbrica, el controlador del dispositivo en el equipo, entre otros.
+                            p.text-white.mb-0 La capa de enlace de datos (igualmente denominada como capa de enlace, capa de interfaz de red o capa física) es la encargada de manejar las partes físicas del envío y recepción de datos mediante el cable #[i Ethernet], la tarjeta de interfaz de red, la red inalámbrica, el controlador del dispositivo en el equipo, entre otros.
                         .row.align-items-center.mb-3
                           .col-md-auto.mb-4.mb-lg-0
                             figure
@@ -225,7 +225,7 @@
                   h3 Dirección IP
         .row.align-items-center
           .col-lg-8.order-2.order-lg-1(data-aos="fade-right")
-            p.mb-0 Para enviar un mensaje a una computadora, se debe especificar a cuál. Es por ello por lo que toda computadora conectada a una red cuenta con una dirección única que la identifica de manera lógica y jerárquica, llamada “dirección IP” o Protocolo de internet (IP de sus siglas en inglés Internet Protocol). Esta dirección se compone por una serie de cuatro números separados por puntos, por ejemplo: 192.168.2.19. Para las computadoras es un identificador simple, pero los humanos van a tener dificultad a la hora de recordar y memorizar este tipo de dirección. De esta manera, con el propósito de convertir esta serie numérica en algo que podamos asociar con mayor facilidad a la dirección IP, se utiliza lo que hoy en día conocemos como nombre de dominio.
+            p.mb-0 Para enviar un mensaje a una computadora, se debe especificar a cuál. Es por ello por lo que toda computadora conectada a una red cuenta con una dirección única que la identifica de manera lógica y jerárquica, llamada “dirección IP” o Protocolo de internet (IP de sus siglas en inglés #[i Internet Protocol]). Esta dirección se compone por una serie de cuatro números separados por puntos, por ejemplo: 192.168.2.19. Para las computadoras es un identificador simple, pero los humanos van a tener dificultad a la hora de recordar y memorizar este tipo de dirección. De esta manera, con el propósito de convertir esta serie numérica en algo que podamos asociar con mayor facilidad a la dirección IP, se utiliza lo que hoy en día conocemos como nombre de dominio.
           .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
             figure
               img(src='@/assets/curso/tema1/img15.png', style="width:450px", alt='').m-auto
@@ -281,7 +281,7 @@
           .row(titulo="Cliente <em>web</em>")
             .col-12
               p Es una aplicación ejecutable que por lo regular se encuentra previamente instalada en el dispositivo del usuario, permitiendo el acceso a internet y siendo capaces de mostrar y solicitar documentos sobre una red, en ese sentido se infiere que es el responsable de la capa de presentación. 
-              p Por tanto, los clientes #[i web] son dispositivos de los usuarios conectados a Internet (por ejemplo, tu ordenador conectado a la red Wi-Fi o el teléfono conectado a la red de telefonía móvil) y el #[i software] que se encuentra disponible y permite acceder a Internet en dichos dispositivos (normalmente, un navegador #[i web] como Firefox o Chrome).
+              p Por tanto, los clientes #[i web] son dispositivos de los usuarios conectados a Internet (por ejemplo, tu ordenador conectado a la red #[i Wi-Fi] o el teléfono conectado a la red de telefonía móvil) y el #[i software] que se encuentra disponible y permite acceder a Internet en dichos dispositivos (normalmente, un navegador #[i web] como Firefox o Chrome).
               figure
                 img(src='@/assets/curso/tema1/img7.svg', style="width:450px", alt='').m-auto
           .row(titulo="Servidor <em>web</em>")
