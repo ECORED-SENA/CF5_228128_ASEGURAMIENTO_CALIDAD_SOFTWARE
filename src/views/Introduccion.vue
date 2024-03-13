@@ -13,7 +13,7 @@
         .p-4
           figure.mb-4
             img(src='@/assets/curso/intro/img1.svg', style="width:180px" alt='').m-auto
-          p.mb-0 Este componente formativo se centra en los conceptos esenciales de la arquitectura de sistemas web, incluyendo tanto aspectos físicos como lógicos, tecnologías del lado del cliente y del servidor, así como la comunicación con otros sistemas. Su objetivo es proporcionar un análisis crítico para seleccionar tecnologías adecuadas según los requisitos del proyecto.
+          p.mb-0 Este componente formativo se centra en los conceptos esenciales de la arquitectura de sistemas #[i web], incluyendo tanto aspectos físicos como lógicos, tecnologías del lado del cliente y del servidor, así como la comunicación con otros sistemas. Su objetivo es proporcionar un análisis crítico para seleccionar tecnologías adecuadas según los requisitos del proyecto.
       .col-md-8.col-lg-4.bg-c14(data-aos="fade-down")
         .p-4
           figure.mb-4
@@ -23,7 +23,7 @@
         .p-4
           figure.mb-4
             img(src='@/assets/curso/intro/img3.svg', style="width:200px" alt='').m-auto
-          p.mb-0 La arquitectura web abarca una amplia gama de tecnologías, desde el front-end que se ocupa de la experiencia del usuario hasta el back-end que gestiona la lógica del servidor. HTML5, CSS3, JavaScript y frameworks como React y Angular son elementos clave en la creación de contenido dinámico y en la evolución de la interacción en línea. En conjunto, estas tecnologías continúan transformando nuestra experiencia digital y la conectividad global.
+          p.mb-0 La arquitectura web abarca una amplia gama de tecnologías, desde el #[i front-end] que se ocupa de la experiencia del usuario hasta el #[i back-end] que gestiona la lógica del servidor. HTML5, CSS3, JavaScript y #[i frameworks] como React y Angular son elementos clave en la creación de contenido dinámico y en la evolución de la interacción en línea. En conjunto, estas tecnologías continúan transformando nuestra experiencia digital y la conectividad global.
       
     
 </template>

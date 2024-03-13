@@ -141,7 +141,7 @@
                     img(src='@/assets/curso/tema1/img15.svg', style="width:50px" alt='').m-auto
                 .col
                   h3 #[i Frameworks] del #[i front-end]
-        p(data-aos="fade-right") Un framework es un tipo de herramienta o recurso, que hace que el desarrollo de cualquier aplicativo sea del lado del cliente o servidor, sea más rápido, fácil y robusto. Este tipo de herramientas incorporan un conjunto de librerías, materiales y adoptan una estructura que van a permitir que todas las aplicaciones tengan un mejor rendimiento.
+        p(data-aos="fade-right") Un #[i framework] es un tipo de herramienta o recurso, que hace que el desarrollo de cualquier aplicativo sea del lado del cliente o servidor, sea más rápido, fácil y robusto. Este tipo de herramientas incorporan un conjunto de librerías, materiales y adoptan una estructura que van a permitir que todas las aplicaciones tengan un mejor rendimiento.
         p.mb-5(data-aos="fade-right") En ese sentido, se listan los #[i frameworks] más importantes a la fecha, con el fin que se tenga un reconocimiento para usos futuros. Este listado es apoyado según la comunidad más grande de gestión de productos llamada Product Coalition (P, 2021):
         .row.justify-content-center
           .col-md-6.col-lg.mb-5.mb-lg-0(data-aos="fade-right")
@@ -170,11 +170,11 @@
                   .row.justify-content-center
                     .col-auto
                       h2.text-center.txt-c3 Angular
-                  p.text-center Es en realidad un proyecto de Google que se utiliza principalmente para el desarrollo de aplicaciones móviles y de escritorio. Hay muchas funciones útiles. El sitio oficial de Framework dice: 'Concéntrese en crear sitios impresionantes en lugar de hacer que su código funcione'. (Angular, 2021).
+                  p.text-center Es en realidad un proyecto de Google que se utiliza principalmente para el desarrollo de aplicaciones móviles y de escritorio. Hay muchas funciones útiles. El sitio oficial de #[i Framework] dice: 'Concéntrese en crear sitios impresionantes en lugar de hacer que su código funcione'. (Angular, 2021).
         Separador
         #t_2_2
         .titulo-segundo.color-acento-contenido
-          h2 2.2 Tecnologías del back-end
+          h2 2.2 Tecnologías del #[i back-end]
         .row.justify-content-center
           .col-lg-10.bg-c8(data-aos="fade-down")
             .p-4
@@ -201,7 +201,7 @@
             figure
               img(src='@/assets/curso/tema2/img5.png', style="width:450px" alt='').m-auto
           .col-lg-8(data-aos="fade-left")
-            p.mb-0 En el lado del servidor, el back-end potencia el funcionamiento del sitio #[i web] debido a que es en esta instancia donde se realizan los procesos más robustos de información, por lo que se necesitan de igual manera lenguajes de programación con una diversidad de funciones para el tratamiento de esos datos. Además, los programas escritos aquí por los desarrolladores de back-end se utilizan para comunicar la información de la base de datos al navegador. La empresa de base tecnológica Third Rock Techkno indica que: “En 2021, el desarrollo de BackEnd será aún más vital a medida que las empresas busquen expandirse a un ritmo rápido. Además, esta empresa muestra los lenguajes de programación del servidor que están en tendencia”. (Third Rock Techkno, 2021)
+            p.mb-0 En el lado del servidor, el #[i back-end] potencia el funcionamiento del sitio #[i web] debido a que es en esta instancia donde se realizan los procesos más robustos de información, por lo que se necesitan de igual manera lenguajes de programación con una diversidad de funciones para el tratamiento de esos datos. Además, los programas escritos aquí por los desarrolladores de #[i back-end] se utilizan para comunicar la información de la base de datos al navegador. La empresa de base tecnológica Third Rock Techkno indica que: “En 2021, el desarrollo de BackEnd será aún más vital a medida que las empresas busquen expandirse a un ritmo rápido. Además, esta empresa muestra los lenguajes de programación del servidor que están en tendencia”. (Third Rock Techkno, 2021)
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")(data-aos="fade-left")
           .row(titulo="Node.JS")
             .col-12
@@ -225,7 +225,7 @@
                 img(src='@/assets/curso/tema1/img15.svg', style="width:50px" alt='').m-auto
             .col
               h3 #[i Frameworks] del #[i back-end]
-    p.mb-5(data-aos="fade-right") Como se mencionó en el apartado de #[i frameworks] del lado del #[i front-end], este tipo de recurso ayuda a los desarrolladores a realizar sus trabajos de manera más ágil, segura y robusta. En ese sentido se presentan los #[I frameworks] del lado del back-end que son tendencia. Según indica una de las empresas de desarrollo #[i web] más importantes de Canadá Monocubed. (Mistry, 2021)
+    p.mb-5(data-aos="fade-right") Como se mencionó en el apartado de #[i frameworks] del lado del #[i front-end], este tipo de recurso ayuda a los desarrolladores a realizar sus trabajos de manera más ágil, segura y robusta. En ese sentido se presentan los #[I frameworks] del lado del #[i back-end] que son tendencia. Según indica una de las empresas de desarrollo #[i web] más importantes de Canadá Monocubed. (Mistry, 2021)
     .tarjeta--container.row
       .col-lg.tarjeta.color-secundario.p-5(data-aos="fade-right")
         .row.justify-content-center.mb-4
@@ -235,7 +235,7 @@
         .row
           .col-auto
             h2.text-center.txt-c3 Laravel
-        p Este framework tiene una excelente estructura del lenguaje, la capacidad de adaptarse a grupos gigantes y la efectividad de sus recursos como es la llamada toolbox. Basado en el lenguaje PHP, sigue una sintaxis elegante y expresiva. Laravel permite a los desarrolladores #[i web] ser flexibles y creativos mientras se encargan de los detalles de fondo a diferencia de otros #[i frameworks].
+        p Este #[i framework] tiene una excelente estructura del lenguaje, la capacidad de adaptarse a grupos gigantes y la efectividad de sus recursos como es la llamada toolbox. Basado en el lenguaje PHP, sigue una sintaxis elegante y expresiva. Laravel permite a los desarrolladores #[i web] ser flexibles y creativos mientras se encargan de los detalles de fondo a diferencia de otros #[i frameworks].
       .col-lg.tarjeta.color-acento-botones.p-5(data-aos="fade-down")
         .row.justify-content-center.mb-4
           .col-6
@@ -244,7 +244,7 @@
         .row
           .col-auto
             h2.text-center.txt-c3 Django
-        p Es un framework de alto nivel que se desarrolla con la noción de 'baterías incluidas'. Esto significa que casi todo lo que necesitaría cualquier desarrollador ya está incluido. Django es utilizado principalmente para el desarrollo de aplicaciones #[i web] interactivas a gran escala impulsadas por bases de datos. Es altamente personalizable y escalable. Tiene una amplia comunidad, una importante documentación.
+        p Es un #[i framework] de alto nivel que se desarrolla con la noción de 'baterías incluidas'. Esto significa que casi todo lo que necesitaría cualquier desarrollador ya está incluido. Django es utilizado principalmente para el desarrollo de aplicaciones #[i web] interactivas a gran escala impulsadas por bases de datos. Es altamente personalizable y escalable. Tiene una amplia comunidad, una importante documentación.
       .col-lg.tarjeta.color-secundario.p-5(data-aos="fade-left")
         .row.justify-content-center.mb-4
           .col-6
