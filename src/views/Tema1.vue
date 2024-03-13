@@ -53,7 +53,7 @@
         p(data-aos="fade-right") Cuando dos computadoras necesitan comunicarse, se pueden vincular a través de medios físicos, por lo regular el cable #[i Ethernet] o de forma inalámbrica con tecnologías como #[i Wifi], #[i Bluetooth], #[i ZigBee], entre otras.
         .row
           .col-12.p-4.bg-c2
-            .tarjeta.tarjeta--azul.p-4.p-lg-5(data-aos="fade-left")
+            .tarjeta.tarjeta--azul.py-3.px-4.px-lg-5(data-aos="fade-left")
               SlyderA(tipo="b")
                 .row.align-items-center.justify-content-center
                   .col-lg-5.order-2.order-lg-1
