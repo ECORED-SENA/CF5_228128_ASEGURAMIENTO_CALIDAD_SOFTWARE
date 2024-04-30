@@ -137,29 +137,29 @@ export default {
   },
   complementario: [
     {
-      tema: 'Cómo funciona la internet',
+      tema: 'Funcionamiento de la internet',
       referencia:
         'ThePRBridge. (2011). <i>Cómo funciona el internet (video)</i>. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=31LE0bPLrhM',
     },
     {
-      tema: 'La internet en 5 minutos',
+      tema: 'Funcionamiento de la internet',
       referencia:
         'Aaron. (2009). <i>How the internet Works in 5 Minutes (video)</i>. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=7_LPdttKXPc',
     },
     {
-      tema: 'Topología de redes',
+      tema: 'Arquitectura web',
       referencia: 'saklar. (2017). <i>Topologías de Red (video)</i>. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=awLJkNHBoms',
     },
     {
-      tema: 'Front-end y backend, en qué consisten, sus tecnologías, API.',
+      tema: 'Introducción a las tecnologías para el desarrollo web',
       referencia:
-        'Code War. (2020). 2. <i>Front-end y backend, en qué consisten, sus tecnologías, APIs - Aprende a programar sistemas web (video)</i>. YouTube.',
+        'Code War. (2020). 2. <i>Frontend y backend, en que consisten, sus tecnologías, APIs - Aprende a programar sistemas web(video)</i>. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=rQX8D4dy1PM',
     },
@@ -237,7 +237,6 @@ export default {
     {
       referencia:
         'Ramos, R. (2020, 18 noviembre). ¿Qué es JavaScript y para qué sirve? Agencia de Marketing Digital | Rafa Ramos. ',
-      link: 'https://soyrafaramos.com/que-es-javascript-para-que-sirve/',
     },
     {
       referencia: 'RedHat. (2021). REST vs. SOAP. ',
