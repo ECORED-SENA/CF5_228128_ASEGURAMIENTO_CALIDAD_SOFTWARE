@@ -235,10 +235,6 @@ export default {
         'https://productcoalition.com/front-end-development-trends-that-will-be-with-us-in-2021-a0ad023922ea',
     },
     {
-      referencia:
-        'Ramos, R. (2020, 18 noviembre). ¿Qué es JavaScript y para qué sirve? Agencia de Marketing Digital | Rafa Ramos. ',
-    },
-    {
       referencia: 'RedHat. (2021). REST vs. SOAP. ',
       link:
         'https://www.redhat.com/en/topics/integration/whats-the-difference-between-soap-rest',

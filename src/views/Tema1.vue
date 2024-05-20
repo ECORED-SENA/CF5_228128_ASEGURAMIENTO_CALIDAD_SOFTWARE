@@ -62,14 +62,14 @@
                   .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2
                     p.text-center.text-white #[b Ejemplo de conexión entre dos equipos o terminales]
                     figure
-                      img(src='@/assets/curso/tema1/img5.png', style="width:550px", alt='').m-auto
+                      img(src='@/assets/curso/tema1/img5.png', style="width:550px", alt='Dos computadoras uno al lado del otro, con un cable de red conectando sus puertos Ethernet.').m-auto
                 .row.align-items-center.justify-content-center
                   .col-lg-5.order-2.order-lg-1
                     p.txt-c1 #[b Ejemplo de conexión entre diez equipos o terminales]
                     p.text-white.mb-0 No se puede pensar que la red solo se limita a dos ordenadores, se pueden conectar tantos como se deseen, aunque con mayor complejidad. Por ejemplo, si se quieren conectar 10 computadoras, se necesitan 45 cables y unos nueve conectores por computador, como se alcanza a apreciar en la siguiente figura.
                   .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2
                     figure
-                      img(src='@/assets/curso/tema1/img6.png', style="width:350px", alt='').m-auto
+                      img(src='@/assets/curso/tema1/img6.png', style="width:350px", alt='Representación gráfica de conexión entre diez equipos o terminales.').m-auto
                 .row.align-items-center.justify-content-center
                   .col-lg-5.order-2.order-lg-1
                     p.txt-c1 #[b Ejemplo de conexión de diez equipos con un enrutador]
@@ -100,7 +100,7 @@
                 .row.align-items-center.justify-content-center
                   .col-lg-4.order-2.order-lg-1
                     h5.txt-c1 Redes de área local LAN
-                    p.text-white Generalmente llamadas LAN (#[i Local Área Networks]), son redes de naturaleza privada que operan dentro de un solo establecimiento, como una casa, oficina o fábrica. Las redes LAN se utilizan ampliamente para conectar computadoras personales y electrodomésticos con el fin de compartir recursos (por ejemplo, impresoras) e intercambiar información.
+                    p.text-white Generalmente llamadas LAN (#[i Local Area Networks]), son redes de naturaleza privada que operan dentro de un solo establecimiento, como una casa, oficina o fábrica. Las redes LAN se utilizan ampliamente para conectar computadoras personales y electrodomésticos con el fin de compartir recursos (por ejemplo, impresoras) e intercambiar información.
                     p.text-white.mb-0 A continuación, se presenta un ejemplo de esta red:
                   .col-lg-6.mb-4.mb-lg-0.order-1.order-lg-2
                     p.text-center.text-white #[b Ejemplo de red de área local inalámbrica y cableada]
