@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1328" height="653.135" viewBox="0 0 1328 653.135">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Exclusión_1" data-name="Exclusión 1" d="M1305,653.135H23a22.982,22.982,0,0,1-23-23V23A22.982,22.982,0,0,1,23,0H1305a22.982,22.982,0,0,1,23,23V630.134a22.982,22.982,0,0,1-23,23ZM76.226,36.479a23.026,23.026,0,0,0-23,23V598.867a23.026,23.026,0,0,0,23,23H1251.772a23.026,23.026,0,0,0,23-23V59.478a23.026,23.026,0,0,0-23-23Z" transform="translate(0 0)" fill="#1789f7"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectángulo_33774" data-name="Rectángulo 33774" width="1297.644" height="623.537" rx="23" fill="#9cc3ea"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1073033" data-name="Grupo 1073033" transform="translate(0)">
+    <rect id="Rectángulo_33770" data-name="Rectángulo 33770" width="1328" height="653.134" rx="23" transform="translate(0 0)" fill="#0082ff"/>
+    <g id="Enmascarar_grupo_3" data-name="Enmascarar grupo 3" transform="translate(0.001 0)" clip-path="url(#clip-path)">
+      <ellipse id="Elipse_4702" data-name="Elipse 4702" cx="461.739" cy="301.38" rx="461.739" ry="301.38" transform="translate(-282.101 248.4)" fill="#ffce00"/>
+      <ellipse id="Elipse_4703" data-name="Elipse 4703" cx="461.739" cy="301.38" rx="461.739" ry="301.38" transform="translate(713.233 -288.352)" fill="#3ee2a8"/>
+    </g>
+  </g>
+</svg>
